@@ -1,0 +1,33 @@
+.sideBar {
+  &-header{
+    background: $primary;
+  }
+  &-date{
+    color: white;
+  }
+  &-search{
+    position: relative;
+    &-icon{
+      cursor: pointer;
+      position: absolute;
+      font-size: 1.5rem;
+      color: $primary;
+      top: 1.5px;
+      right: 8px;
+    }
+    &-list{
+      width: 100%;
+      position: absolute;
+      overflow: scroll;
+      max-height: 350px;
+    }
+    li{
+      cursor: pointer;
+    }
+  }
+  &-content{
+    overflow-y:auto ;
+    overflow: scroll;
+    height:calc(100vh - 152px);
+  }
+}

@@ -1,0 +1,6 @@
+.cards{
+  cursor: pointer;
+  &:hover,&:focus{
+    background-color: rgba(128,128,128,.1);
+  }
+}
